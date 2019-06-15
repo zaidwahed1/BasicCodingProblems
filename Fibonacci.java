@@ -8,6 +8,7 @@ class Fibonacci
 	System.out.print("Enter number of terms: ");
 	int n = s.nextInt();
 	
+	System.out.println("The FIbanacci series is:");
 	int i = 0,j=1,nextTerm;
 	for(int k=0;k<n;k++)
 	{
